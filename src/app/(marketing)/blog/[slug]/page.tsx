@@ -1,3 +1,4 @@
+import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { blogPosts } from "~source/server";
 import { formatDate } from "@/lib/utils";
@@ -8,6 +9,19 @@ interface BlogPostPageProps {
 
 function getSlug(path: string): string {
   return path.replace(/\.mdx?$/, "");
+}
+
+export async function generateMetadata({
+  params,
+}: BlogPostPageProps): Promise<Metadata> {
+  const { slug } = await params;
+  const post = blogPosts.find((p) => getSlug(p.info.path) === slug);
+  if (!post) return {};
+
+  return {
+    title: post.title,
+    description: post.description,
+  };
 }
 
 export default async function BlogPostPage({ params }: BlogPostPageProps) {

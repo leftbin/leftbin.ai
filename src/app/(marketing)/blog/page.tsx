@@ -1,6 +1,13 @@
+import type { Metadata } from "next";
 import Link from "next/link";
 import { blogPosts } from "~source/server";
 import { formatDate } from "@/lib/utils";
+
+export const metadata: Metadata = {
+  title: "Blog",
+  description:
+    "Insights on AI agent-powered workflow automation from the Leftbin team.",
+};
 
 export default async function BlogPage() {
   const posts = [...blogPosts].sort((a, b) => {
