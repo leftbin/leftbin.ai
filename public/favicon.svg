@@ -5,19 +5,19 @@
 <path fill="#f5f5f5" transform="translate(10.8205, -12.718)" d="M 0 0 L -0.015 25.436 L -21.641 12.468 Z"/>
 </g>
 <g transform="matrix(4.39 0 0 -4.39 -47.185373526210924 27.651258789178854)">
-<path fill="#f5f5f5" transform="translate(-10.821, -12.718)" d="M 0 0 L 0.015 25.436 L 21.642 12.468 Z"/>
+<path fill="#d4d4d4" transform="translate(-10.821, -12.718)" d="M 0 0 L 0.015 25.436 L 21.642 12.468 Z"/>
 </g>
 <g transform="matrix(4.39 0 0 -4.39 -47.185373526210924 -83.71854638238605)">
-<path fill="#f5f5f5" transform="translate(-10.8205, -12.7265)" d="M 0 0 V 25.453 L 21.641 12.468 Z"/>
+<path fill="#737373" transform="translate(-10.8205, -12.7265)" d="M 0 0 V 25.453 L 21.641 12.468 Z"/>
 </g>
 <g transform="matrix(4.39 0 0 -4.39 -47.185373526210924 -27.201283789178916)">
-<path fill="#f5f5f5" transform="translate(10.8135, -12.716)" d="M 0 0 L -0.001 25.432 L -21.627 12.968 Z"/>
+<path fill="#a3a3a3" transform="translate(10.8135, -12.716)" d="M 0 0 L -0.001 25.432 L -21.627 12.968 Z"/>
 </g>
 <g transform="matrix(4.39 0 0 -4.39 47.17000852621095 84.16852138238605)">
-<path fill="#f5f5f5" transform="translate(-10.8245, -12.624)" d="M 0 0 L 21.649 12.779 L 0.008 25.248 Z"/>
+<path fill="#b0b0b0" transform="translate(-10.8245, -12.624)" d="M 0 0 L 21.649 12.779 L 0.008 25.248 Z"/>
 </g>
 <g transform="matrix(4.39 0 0 -4.39 -47.185373526210924 84.16852138238605)">
-<path fill="#f5f5f5" transform="translate(10.8125, -12.624)" d="M 0 0 L -21.633 12.779 L 0.008 25.248 Z"/>
+<path fill="#8a8a8a" transform="translate(10.8125, -12.624)" d="M 0 0 L -21.633 12.779 L 0.008 25.248 Z"/>
 </g>
 </g>
 </svg>
