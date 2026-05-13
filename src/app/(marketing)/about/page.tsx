@@ -29,7 +29,7 @@ const FOUNDERS: Founder[] = [
     ],
   },
   {
-    name: "Suresh",
+    name: "Suresh Attaluri",
     role: "Co-Founder",
     bio: [
       "Deep technical partner. When a new technology needs to be evaluated and integrated, Suresh figures it out — completely, from research through production.",
