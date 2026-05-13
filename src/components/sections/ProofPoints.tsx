@@ -14,7 +14,7 @@ const STATS: Stat[] = [
       "Projects completed by AI coding agents across web, desktop, mobile, CLI, and backend",
   },
   {
-    value: "1\u20132 days",
+    value: "1–2 days",
     description:
       "Full vertical slices delivered. Data model through UI in a single sprint",
   },

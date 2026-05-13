@@ -21,7 +21,7 @@ const PHASES: Phase[] = [
     icon: "workflow",
     title: "Build",
     description:
-      "AI agents that reason through messy data, draft outputs, validate against your rules, and execute\u2014with human approval gates where risk demands it. Delivered in days.",
+      "AI agents that reason through messy data, draft outputs, validate against your rules, and execute — with human approval gates where risk demands it. Delivered in days.",
   },
   {
     icon: "activity",

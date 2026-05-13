@@ -23,8 +23,8 @@ const FOUNDERS: Founder[] = [
     name: "Swarup Donepudi",
     role: "Founder",
     bio: [
-      "Builder first. Thinks in systems and platforms\u2014his instinct is to design the operating system for a problem, not just solve the immediate task.",
-      "15 years from DevOps engineering to platform architecture. Built internal tools that saved ~$1M at CDK Global in Chicago. Built Zodiac\u2014an internal DevOps self-service platform for 2,000 engineers\u2014at Zillow.",
+      "Builder first. Thinks in systems and platforms — his instinct is to design the operating system for a problem, not just solve the immediate task.",
+      "15 years from DevOps engineering to platform architecture. Built internal tools that saved ~$1M at CDK Global in Chicago. Built Zodiac — an internal DevOps self-service platform for 2,000 engineers — at Zillow.",
       "At Leftbin, Swarup leads client relationships, engagement strategy, and business positioning. He owns the Company OS product surface and leads discovery conversations with clients.",
     ],
   },
@@ -32,8 +32,8 @@ const FOUNDERS: Founder[] = [
     name: "Suresh",
     role: "Co-Founder",
     bio: [
-      "Deep technical partner. When a new technology needs to be evaluated and integrated, Suresh figures it out\u2014completely, from research through production.",
-      "Independently drove: the trading engine (Kafka Streams), search (Apache Solr), authorization (OpenFGA), billing (Stripe), and the entire AI agent research that led to Stigmer\u2014the agent execution model, MCP server architecture, skill system, and approval flows.",
+      "Deep technical partner. When a new technology needs to be evaluated and integrated, Suresh figures it out — completely, from research through production.",
+      "Independently drove: the trading engine (Kafka Streams), search (Apache Solr), authorization (OpenFGA), billing (Stripe), and the entire AI agent research that led to Stigmer — the agent execution model, MCP server architecture, skill system, and approval flows.",
       "At Leftbin, Suresh owns agent execution architecture and deep technical research. He is the reason Leftbin can deliver production-grade agent systems, not prototypes.",
     ],
   },
@@ -56,13 +56,13 @@ const DIFFERENTIATORS: Differentiator[] = [
     icon: "zap",
     title: "Not slow",
     description:
-      "Full vertical slices\u2014data model through UI\u2014delivered in 1\u20132 calendar days. The constraint is always scope selection, never implementation capacity.",
+      "Full vertical slices — data model through UI — delivered in 1–2 calendar days. The constraint is always scope selection, never implementation capacity.",
   },
   {
     icon: "target",
     title: "Not generic",
     description:
-      "Specialized in AI agent-powered workflow automation. Not generic software development, not staff augmentation, not \u201Cwe use ChatGPT to write your code faster.\u201D",
+      'Specialized in AI agent-powered workflow automation. Not generic software development, not staff augmentation, not "we use ChatGPT to write your code faster."',
   },
 ];
 
@@ -83,7 +83,7 @@ export default function AboutPage() {
               <p className="text-lg text-muted-foreground leading-relaxed">
                 Leftbin is a two-founder team augmented by AI coding agents.
                 Both founders are full-stack engineers who have worked together
-                since 2007. They don&apos;t scale with headcount\u2014they scale
+                since 2007. They don&apos;t scale with headcount — they scale
                 with intelligence.
               </p>
             </div>
@@ -114,14 +114,14 @@ export default function AboutPage() {
               <p>
                 Swarup and Suresh met in college in Hyderabad in 2007. They
                 started building together from the very first side project and
-                never stopped\u2014through career changes, relocations, and
+                never stopped — through career changes, relocations, and
                 multiple product pivots.
               </p>
             </FadeInUp>
             <FadeInUp delay={0.2}>
               <p>
-                Leftbin was incorporated in 2019 as LeftBin Labs, but the
-                consulting path stalled\u2014the IT consulting market was
+                Leftbin was incorporated in 2019 as Leftbin Labs, but the
+                consulting path stalled — the IT consulting market was
                 saturated, and without a sharp niche, it was impossible to
                 command premium pricing. The founders pivoted to building
                 products.
@@ -133,7 +133,7 @@ export default function AboutPage() {
                 projects using AI-driven development, building two
                 production-grade platforms: a DevOps platform (Planton) and an
                 open-source AI agent platform (Stigmer). Multi-surface product
-                delivery across web, desktop, mobile, CLI, and backend\u2014all
+                delivery across web, desktop, mobile, CLI, and backend — all
                 built by a two-person team augmented by coding agents.
               </p>
             </FadeInUp>
@@ -141,7 +141,7 @@ export default function AboutPage() {
               <p className="text-foreground font-medium">
                 In April 2026, Leftbin was reinstated at leftbin.ai with a sharp
                 niche: AI agent-powered business workflow automation. Not
-                theoretical expertise\u2014battle-tested, production-validated
+                theoretical expertise — battle-tested, production-validated
                 capability.
               </p>
             </FadeInUp>

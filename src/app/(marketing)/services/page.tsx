@@ -27,7 +27,7 @@ const ENGAGEMENT_TYPES: EngagementType[] = [
     icon: "target",
     description: "Prove value before committing.",
     details:
-      "One workflow, constrained scope, measurable outcome. We discover your highest-value automation opportunity, build a working prototype, and demonstrate measurable impact\u2014all within a single week.",
+      "One workflow, constrained scope, measurable outcome. We discover your highest-value automation opportunity, build a working prototype, and demonstrate measurable impact — all within a single week.",
   },
   {
     title: "Productionization",
@@ -35,7 +35,7 @@ const ENGAGEMENT_TYPES: EngagementType[] = [
     icon: "shield",
     description: "Harden the pilot into production.",
     details:
-      "Error handling, monitoring, runbook, integration polish. Take the workflow that proved its value in the pilot and make it production-grade\u2014reliable, observable, and ready for your team to depend on.",
+      "Error handling, monitoring, runbook, integration polish. Take the workflow that proved its value in the pilot and make it production-grade — reliable, observable, and ready for your team to depend on.",
   },
   {
     title: "Retainer",
@@ -66,7 +66,7 @@ const WORKFLOW_EXAMPLES: WorkflowExample[] = [
     icon: "workflow",
     title: "Data Pipeline Orchestration",
     description:
-      "Agents that monitor data sources, detect anomalies, reconcile across systems, and surface actionable insights\u2014not just move data between tables.",
+      "Agents that monitor data sources, detect anomalies, reconcile across systems, and surface actionable insights — not just move data between tables.",
   },
   {
     icon: "layers",
@@ -105,7 +105,7 @@ const APPROACH_STEPS: ApproachStep[] = [
     number: "01",
     title: "Discovery",
     description:
-      "We deep-dive into your workflows with structured questionnaires and workflow mapping. Every manual step, every decision point, every data source\u2014documented and scored for automation potential.",
+      "We deep-dive into your workflows with structured questionnaires and workflow mapping. Every manual step, every decision point, every data source — documented and scored for automation potential.",
   },
   {
     number: "02",
@@ -148,7 +148,7 @@ export default function ServicesPage() {
                 Intelligent automation, delivered in sprints
               </h1>
               <p className="text-lg text-muted-foreground leading-relaxed">
-                Every engagement starts with discovery\u2014not a sales pitch.
+                Every engagement starts with discovery — not a sales pitch.
                 We map your workflows, identify the highest-value automation
                 opportunity, and deliver working software. You see results before
                 you commit to anything long-term.
@@ -237,7 +237,7 @@ export default function ServicesPage() {
               </h2>
               <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
                 If it involves repetitive data-driven decisions across multiple
-                systems, AI agents can handle it\u2014with human approval where
+                systems, AI agents can handle it — with human approval where
                 it matters.
               </p>
             </div>

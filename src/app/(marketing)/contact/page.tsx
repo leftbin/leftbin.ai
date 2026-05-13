@@ -114,7 +114,7 @@ export default function ContactPage() {
             </h2>
             <p className="text-muted-foreground mb-8">
               Tell us what to automate. We&apos;ll show you what intelligent
-              automation looks like\u2014in your domain, with your data.
+              automation looks like — in your domain, with your data.
             </p>
             <Button asChild size="lg">
               <Link href={SITE_CONFIG.bookDemoUrl}>Book a Demo</Link>
