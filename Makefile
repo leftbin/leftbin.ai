@@ -1,7 +1,7 @@
 YARN := yarn
 PORT ?= 3000
 
-.PHONY: deps install dev run build lint typecheck verify clean preview
+.PHONY: deps install dev run build clean-build lint typecheck verify clean preview
 
 deps: install
 
@@ -24,8 +24,10 @@ typecheck: install
 
 verify: lint typecheck
 
+clean-build: clean build
+
 clean:
-	rm -rf .next out node_modules .source
+	rm -rf .next out node_modules
 
 preview: build
 	cd out && npx --yes serve -l $(PORT)
