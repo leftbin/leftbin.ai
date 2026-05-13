@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
+import Link from "next/link";
 import { blogPosts } from "~source/server";
 import { formatDate } from "@/lib/utils";
 
@@ -35,24 +36,50 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
   const MDXContent = post.body;
 
   return (
-    <article className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 py-24">
-      <header className="mb-12">
-        <time className="text-xs font-mono uppercase tracking-wider text-subtle">
-          {post.date ? formatDate(String(post.date)) : ""}
-        </time>
-        <h1 className="text-3xl sm:text-4xl font-bold tracking-tight text-foreground mt-2 mb-4">
+    <article className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 py-16 sm:py-24">
+      <Link
+        href="/blog"
+        className="inline-flex items-center gap-1 text-sm text-muted-foreground transition-colors hover:text-foreground"
+      >
+        &larr; All posts
+      </Link>
+
+      <header className="mt-8 mb-12">
+        <h1 className="text-3xl sm:text-4xl font-bold tracking-tight text-foreground">
           {post.title}
         </h1>
         {post.description && (
-          <p className="text-lg text-muted-foreground">
+          <p className="mt-3 text-lg text-muted-foreground">
             {post.description}
           </p>
         )}
+        <div className="mt-4 flex items-center gap-2 text-sm text-muted-foreground">
+          {post.author && (
+            <>
+              <span className="text-foreground">{post.author}</span>
+              <span>&middot;</span>
+            </>
+          )}
+          {post.date && (
+            <time dateTime={new Date(String(post.date)).toISOString()}>
+              {formatDate(String(post.date))}
+            </time>
+          )}
+        </div>
       </header>
 
-      <div className="prose prose-invert max-w-none">
+      <div className="prose prose-lg prose-invert max-w-none">
         <MDXContent />
       </div>
+
+      <footer className="mt-16 pt-8 border-t border-border">
+        <Link
+          href="/blog"
+          className="inline-flex items-center gap-1 text-sm text-muted-foreground transition-colors hover:text-foreground"
+        >
+          &larr; All posts
+        </Link>
+      </footer>
     </article>
   );
 }
